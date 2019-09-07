@@ -1,0 +1,98 @@
+
+$navbar-default-bg: black;/*#8B0E0E;*/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+	float: left;
+	color: white;
+	font-size: bolder;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 1.7em;
+}
+
+.centre {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('nature1.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;	
+	background-position: center;
+	height: 423px;
+}
+
+.jumbotron {
+	color: black;
+	text-align: center;
+}
+
+.listing{
+	margin-left:25px;
+	list-style: none;
+	padding-left:0;
+}
+
+.listing li{
+	text-align:center;
+}
+
+
+.btn-xlarge{
+	font-size: 1.7em;
+	background-color: #8B0E0E;
+	border: 1px solid white;
+}
+
+.btn-xlarge:hover {
+	font-size: 1.7em;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+
+.description {
+	margin-top: 0;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.article-body {
+	
+	border-top: 1px solid black;
+	margin-bottom: 10px;
+	padding-top: 15px;
+}
+
+.article-meta-details{
+	border-top: 1px solid #eaeaea;
+	margin-top: 15px;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid black;
+	color:black;
+}
+
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style:none;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
